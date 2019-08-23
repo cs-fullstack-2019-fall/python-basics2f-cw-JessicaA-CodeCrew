@@ -22,6 +22,7 @@ if askUser1 == askUser2:
     print("Correct")
 else:
     print("Incorrect")
+# NOTE : Create a loop    
 
 # Problem 3:
 # Write some Python code using f-strings that prints 0 to 50 three times in a row (vertically).
@@ -40,7 +41,7 @@ import random
 
 ranNumber = random.randint(1, 5)
 user_guess = -1
-
+print(ranNumber)
 while user_guess != ranNumber:
     user_guess = int(input("Guess random: "))
     if user_guess != ranNumber:
